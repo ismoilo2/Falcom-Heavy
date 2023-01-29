@@ -182,4 +182,65 @@
   line-height: 30px;
   font-style: normal;
   color: white;
+}
+
+.futer {
+  width: 1380px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.futer .futr {
+  width: 545px;
+  height: 280px;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.futer .futr img {
+  width: 140px;
+  height: 17px;
+}
+.futer .futr .futrmenyu {
+  width: 545px;
+  height: 22px;
+}
+.futer .futr .futrmenyu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.futer .futr .futrmenyu ul li {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  font-style: normal;
+  color: white;
+}
+.futer .futr p {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 21px;
+  color: #808080;
+}
+.futer .futr button {
+  width: 260px;
+  height: 60px;
+  border: 2px solid white;
+  border-radius: 6px;
+  background: black;
+}
+.futer .futr button a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  line-height: 21px;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
 }/*# sourceMappingURL=app.css.map */
